@@ -7,7 +7,7 @@
         "age": 26,
         "time": 1,
         "name": "The Whale Caller ",
-        "gender": "female",
+        "gender": "family",
         "company": "BIOHAB",
         "about": "Do laborum voluptate quis quis dolore nostrud eu qui. Nulla nisi cillum quis officia sint nostrud. Elit elit quis ipsum ullamco Lorem adipisicing laborum sint Lorem velit ad commodo sunt consectetur. Mollit dolor Lorem cillum eiusmod veniam do consequat. Proident sunt nulla pariatur ad id eiusmod. Consequat eiusmod mollit ut ad fugiat. In occaecat ex dolor sunt enim magna duis culpa voluptate.\r\n"
     },
@@ -19,7 +19,7 @@
         "age": 37,
         "time": 2,
         "name": "Beauty and the Beast",
-        "gender": "male",
+        "gender": "Adult",
         "company": "ZILLACON",
         "about": "Laboris nulla duis consequat non adipisicing. Proident nulla ullamco commodo cillum id. Officia ea cupidatat nostrud proident ut.\r\n"
     },
@@ -31,7 +31,7 @@
         "age": 33,
         "time": 3,
         "name": "Chander Pahar",
-        "gender": "male",
+        "gender": "Family",
         "company": "LOCAZONE",
         "about": "Nostrud excepteur qui do exercitation reprehenderit sit. Ut id dolore mollit reprehenderit pariatur magna eu est incididunt dolore in nostrud. Proident anim commodo officia fugiat elit consequat amet ullamco non do ut do dolor. Esse velit non occaecat nisi eiusmod laborum ut id aliquip aliquip. Esse dolore nulla veniam minim ea consectetur est mollit labore consequat. Elit eu esse proident laborum occaecat nisi et ipsum proident est adipisicing.\r\n"
     },
@@ -43,7 +43,7 @@
         "age": 40,
         "time": 2,
         "name": "Love Story",
-        "gender": "male",
+        "gender": "Adult",
         "company": "XYMONK",
         "about": "Do pariatur aliquip adipisicing esse sunt amet anim sint ex voluptate enim. Nulla ipsum pariatur magna cillum deserunt officia consequat veniam commodo ut. Sunt velit incididunt officia elit enim qui consequat officia consectetur consequat. Ullamco amet irure excepteur occaecat esse non. Exercitation est eu cillum amet. Esse nisi ut eu incididunt et anim amet aute mollit adipisicing elit occaecat occaecat. Irure magna culpa id in aute elit sit aliquip voluptate id.\r\n"
     },
@@ -55,43 +55,43 @@
         "age": 28,
         "time": 3,
         "name": "Chengiz",
-        "gender": "male",
+        "gender": "Family",
         "company": "SHADEASE",
         "about": "Velit reprehenderit incididunt tempor officia Lorem nisi incididunt. Deserunt laboris labore commodo esse et. Sint eiusmod proident velit duis minim consectetur. Pariatur occaecat tempor officia fugiat irure Lorem commodo consectetur ipsum sit pariatur laborum. Ipsum nisi Lorem elit amet aute adipisicing. Enim magna tempor fugiat tempor sint reprehenderit eiusmod nulla duis. Ipsum id duis aute Lorem.\r\n"
     },
     {
-        "id": "64aac2419e45709c6221cfa3",
+        "id": "64aac2419e45709c6224cfa3",
         "index": 4,
         "balance": "$2,258.53",
         "picture": "https://cdn.siasat.com/wp-content/uploads/2023/03/pathaan-1.jpg",
         "age": 28,
         "time": 2,
         "name": "Pathaan",
-        "gender": "male",
+        "gender": "Family",
         "company": "SHADEASE",
         "about": "Velit reprehenderit incididunt tempor officia Lorem nisi incididunt. Deserunt laboris labore commodo esse et. Sint eiusmod proident velit duis minim consectetur. Pariatur occaecat tempor officia fugiat irure Lorem commodo consectetur ipsum sit pariatur laborum. Ipsum nisi Lorem elit amet aute adipisicing. Enim magna tempor fugiat tempor sint reprehenderit eiusmod nulla duis. Ipsum id duis aute Lorem.\r\n"
     },
     {
-        "id": "64aac2419e45709c6221cfa3",
+        "id": "64aac2419e45709k6221cfa3",
         "index": 4,
         "balance": "$2,258.53",
         "picture": "https://i.ytimg.com/vi/G9ZV4NZ5Ulw/maxresdefault.jpg",
         "age": 28,
         "time": 1,
         "name": "Tezz",
-        "gender": "male",
+        "gender": "Family",
         "company": "SHADEASE",
         "about": " PriyadarshanProducer : Ratan JainMusic : Sajid WajidStar Cast : Anil Kapoor, Ajay Devgan, Kangana Ranaut, Zayed Khan, Boman Irani, Sam\r\n"
     },
     {
-        "id": "64aac2419e45709c6221cfa3",
+        "id": "64aac2419e45709c6291cfa3",
         "index": 4,
         "balance": "$2,258.53",
         "picture": "https://static.toiimg.com/photo/msid-94303461/94303461.jpg?13382",
         "age": 28,
         "time": 2,
         "name": "Tiranga",
-        "gender": "male",
+        "gender": "Adult",
         "company": "SHADEASE",
         "about": "Durga (Parineeti Chopra), a special agent, is tasked with apprehending Khalid Omar (Sharad Kelkar), the mastermind behind the 2001 Parliament attack. While on the assignment, she develops feelings for Dr. Mirza Ali (Harrdy Sandhu)\r\n"
     }

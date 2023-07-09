@@ -1,0 +1,17 @@
+.header img {
+
+    height: 80px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.header h3 {
+    margin-left: 20px;
+    padding-top: 10px;
+    color: orangered;
+}
