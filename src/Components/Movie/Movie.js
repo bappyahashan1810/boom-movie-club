@@ -12,7 +12,7 @@ const Movie = (props) => {
                 <p><strong>Time Required: {time}hrs</strong></p>
 
             </div>
-            <button className='btn-movie'><strong>Add To List</strong></button>
+            <button onClick={() => { props.cartToDisplayMovie(props.movie) }} className='btn-movie'><strong>Add To List</strong></button>
 
         </div>
     );

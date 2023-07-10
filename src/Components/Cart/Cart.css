@@ -24,4 +24,15 @@
 
 .movie-cart-container {
     margin: 10px;
+    position: sticky;
+}
+
+.cart-picture {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cart-picture img {
+    width: 100px;
+    height: 70px;
 }

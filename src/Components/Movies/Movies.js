@@ -6,11 +6,21 @@ import Cart from '../Cart/Cart';
 
 const Movies = () => {
     const [movies, setMovies] = useState([]);
+    const [cart, setCart] = useState([]);
     useEffect(() => {
         fetch('movie.json')
             .then(res => res.json())
             .then(data => setMovies(data));
     }, [])
+
+    const cartToDisplayMovie = (movie) => {
+
+        let newCart = [];
+        newCart = [...cart, movie];
+        setCart(newCart);
+
+
+    }
     return (
         <div className='movies-container'>
 
@@ -18,7 +28,9 @@ const Movies = () => {
                 <h4 className='movie-select'>Select Today's Movie</h4>
                 <div className='movie-container'>
                     {
-                        movies.map(movie => <Movie movie={movie} key={movie.id}></Movie>)
+                        movies.map(movie => <Movie movie={movie}
+                            cartToDisplayMovie={cartToDisplayMovie}
+                            key={movie.id}></Movie>)
                     }
                 </div>
             </div>
@@ -28,9 +40,9 @@ const Movies = () => {
                     <h4>Bappy Ahashan</h4>
                 </div>
                 <div>
-                    {
-                        <Cart></Cart>
-                    }
+
+                    <Cart cart={cart}></Cart>
+
                 </div>
             </div>
         </div>

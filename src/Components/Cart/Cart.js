@@ -1,19 +1,25 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Cart.css';
+import { getDataLocalStorage, setDataLocalStorage } from '../../LocalStorageDB/localdb';
 
 const Cart = (props) => {
+    // const { picture, time } = props.movie;
+
+    const totalTime = props.cart.reduce((previous, current) => previous + current.time, 0);
+
+
     const [breakTime, setBreakTime] = useState(0);
     const eventHandler = time => {
-        if (time) {
+        setBreakTime(time);
+        setDataLocalStorage(time);
 
-            setBreakTime(time);
-        }
-        else {
-            time = 0;
-            setBreakTime(time);
-        }
     }
-    console.log(breakTime);
+    useEffect(() => {
+        const getTime = getDataLocalStorage();
+        setBreakTime(getTime);
+    }, [])
+
+
 
     return (
         <div className='movie-cart-container'>
@@ -27,8 +33,11 @@ const Cart = (props) => {
             </div>
             <h5><b>Movie Details Time:</b></h5>
             <div>
-                <h6>Total Movie Time: </h6>
+                <h6>Total Movie Time: {totalTime}hr </h6>
                 <h6>Break Time: {breakTime}Min</h6>
+            </div>
+            <div className='cart-picture'>
+                {/* <img src={picture} alt="" /> */}
             </div>
         </div>
     );
